@@ -1,0 +1,99 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Wed Mar 15 12:18:18 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00018e
+                   .cinit    romdata   0x0000c7    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/MAIN.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000c8      
+                            0x002007    0x002008      
+            203 out of 8455 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             _.org_0_0043   0x000043    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             _.org_0_004D   0x00004d    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             _.org_0_0053   0x000053    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+                  bin_bcd   0x000059    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                    bucle   0x000076    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                   cargar   0x000016    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+           cargar_valores   0x000092    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                   ciclo1   0x000040    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+                   ciclo2   0x00003e    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+               conversion   0x000055    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                    dec_1   0x000071    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                   dec_10   0x00006d    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                   inicio   0x000002    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                 osc_conf   0x000027    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\configuracion.inc
+                      pir   0x000079    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                     pir2   0x00007b    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                port_conf   0x00002e    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\configuracion.inc
+                reiniciar   0x00001a    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+      reiniciar_con_carga   0x000020    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                 reinicio   0x000004    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+      restaurar_secuencia   0x000087    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                 ret_unid   0x000066    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+             retardo_1seg   0x000049    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+            retardo_500ms   0x00004f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             retardo_50ms   0x00003c    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+                  retorno   0x000061    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+              salir_carga   0x000090    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                secuencia   0x000074    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                    tabla   0x000099    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                   tabla2   0x0000b0    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                verificar   0x00000f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+         verificar_volver   0x000087    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+         volver_verificar   0x00007f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000002    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                 reinicio   0x000004    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                verificar   0x00000f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                   cargar   0x000016    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                reiniciar   0x00001a    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+      reiniciar_con_carga   0x000020    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\main.asm
+                 osc_conf   0x000027    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\configuracion.inc
+                port_conf   0x00002e    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\configuracion.inc
+             retardo_50ms   0x00003c    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+                   ciclo2   0x00003e    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+                   ciclo1   0x000040    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             _.org_0_0043   0x000043    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             retardo_1seg   0x000049    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             _.org_0_004D   0x00004d    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+            retardo_500ms   0x00004f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+             _.org_0_0053   0x000053    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\retardos.inc
+               conversion   0x000055    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                  bin_bcd   0x000059    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                  retorno   0x000061    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                 ret_unid   0x000066    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                   dec_10   0x00006d    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                    dec_1   0x000071    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\bin_bcd.inc
+                secuencia   0x000074    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                    bucle   0x000076    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                      pir   0x000079    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                     pir2   0x00007b    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+         volver_verificar   0x00007f    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+      restaurar_secuencia   0x000087    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+         verificar_volver   0x000087    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+              salir_carga   0x000090    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+           cargar_valores   0x000092    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                    tabla   0x000099    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+                   tabla2   0x0000b0    program     static C:\proyectos micro_c\laboratorios\lab_1\lab_1.X\secuencia.inc
+
+

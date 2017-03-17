@@ -1,0 +1,21 @@
+Warning[205] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\MAIN.ASM 1 : Found directive in column 1. (LIST)
+Message[310] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\P16F887.INC 1520 : Superseding current maximum RAM and RAM map.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 29 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 31 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 33 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 35 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\CONFIGURACION.INC 36 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\RETARDOS.INC 10 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\RETARDOS.INC 12 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\RETARDOS.INC 14 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\RETARDOS.INC 22 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\RETARDOS.INC 30 : Using default destination of 1 (file).
+Warning[207] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\BIN_BCD.INC 22 : Found label after column 1. (ret_unid)
+Warning[203] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\BIN_BCD.INC 30 : Found opcode in column 1. (return)
+Warning[203] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\BIN_BCD.INC 36 : Found opcode in column 1. (goto)
+Warning[203] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\BIN_BCD.INC 42 : Found opcode in column 1. (goto)
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\SECUENCIA.INC 13 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\SECUENCIA.INC 17 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\SECUENCIA.INC 19 : Using default destination of 1 (file).
+Message[305] C:\PROYECTOS MICRO_C\LABORATORIOS\LAB_1\LAB_1.X\SECUENCIA.INC 21 : Using default destination of 1 (file).
